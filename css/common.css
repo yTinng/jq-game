@@ -1,0 +1,53 @@
+/*
+* @Author: THINKPAD
+* @Date:   2016-10-10 18:37:16
+* @Last Modified by:   THINKPAD
+* @Last Modified time: 2016-10-12 16:33:18
+*/
+html,body,p,h1,h3,ul,li,b,a,img,input,dd,dt,dl,i{
+	margin: 0;
+	padding: 0;
+}
+img,input{
+	border: 0;
+	outline-style: none;
+}
+.clearfix:before,.clearfix:after{
+	content:"";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+ul li{
+	list-style: none;
+}
+body{
+	font: normal 400 12px "SimSun","宋体";
+	color: #333333;
+}
+i,s,em{
+	text-decoration: none;
+	font-style: normal;
+}
+body{
+	height: 1500px;
+}
+.center{
+	width: 1211px;
+	margin: 0 auto;
+}
